@@ -1,0 +1,90 @@
+[
+    
+    {
+      "id_potencia": "00107-00016-x",
+      "informe": "RealDía",
+      "central": "LICAN",
+      "unidad": "LICAN 1",
+      "fecha_inicio": "2/4/17 13:00",
+      "fecha_termino": "2/4/17 14:00",
+      "duracion": "12.0",
+      "potencia_disponible": 9.0,
+      "potencia_maxima": 9.0,
+      "estado_operativo": "DN",
+      "comentario": null,
+      "duracion_ponderada": 0.0
+    },
+    {
+      "id_potencia": "00107-00016-x",
+      "informe": "RealDía",
+      "central": "LICAN",
+      "unidad": "LICAN 1",
+      "fecha_inicio": "2/4/17 15:00",
+      "fecha_termino": "2/4/17 16:00",
+      "duracion": "12.0",
+      "potencia_disponible": 9.0,
+      "potencia_maxima": 9.0,
+      "estado_operativo": "DN",
+      "comentario": null,
+      "duracion_ponderada": 0.0
+    },
+    {
+      "id_potencia": "00107-00016-x",
+      "informe": "RealDía",
+      "central": "LICAN",
+      "unidad": "LICAN 1",
+      "fecha_inicio": "2/4/17 20:00",
+      "fecha_termino": "2/4/17 21:00",
+      "duracion": "12.0",
+      "potencia_disponible": 9.0,
+      "potencia_maxima": 9.0,
+      "estado_operativo": "DN",
+      "comentario": null,
+      "duracion_ponderada": 0.0
+    },
+    {
+      "id_potencia": "00107-00016-d",
+      "informe": "RealDía",
+      "central": "LICAN",
+      "unidad": "LICAN 1",
+      "fecha_inicio": "2/5/17 17:10",
+      "fecha_termino": "2/5/17 18:00",
+      "duracion": "12.0",
+      "potencia_disponible": 9.0,
+      "potencia_maxima": 9.0,
+      "estado_operativo": "DN",
+      "comentario": null,
+      "duracion_ponderada": 0.0
+    },
+    {
+      "id_potencia": "00107-00016-d",
+      "informe": "RealDía",
+      "central": "LICAN",
+      "unidad": "LICAN 1",
+      "fecha_inicio": "2/5/17 19:10",
+      "fecha_termino": "2/5/17 20:00",
+      "duracion": "12.0",
+      "potencia_disponible": 9.0,
+      "potencia_maxima": 9.0,
+      "estado_operativo": "DN",
+      "comentario": null,
+      "duracion_ponderada": 0.0
+    },
+    {
+      "id_potencia": "00107-00016-x",
+      "informe": "RealDía",
+      "central": "LICAN",
+      "unidad": "LICAN 1",
+      "fecha_inicio": "2/6/17 17:10",
+      "fecha_termino": "2/6/17 18:00",
+      "duracion": "12.0",
+      "potencia_disponible": 9.0,
+      "potencia_maxima": 9.0,
+      "estado_operativo": "DN",
+      "comentario": null,
+      "duracion_ponderada": 0.0
+    }
+   
+   
+
+]

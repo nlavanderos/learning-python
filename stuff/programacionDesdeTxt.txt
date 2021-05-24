@@ -1,0 +1,5 @@
+exec("x='asd'")
+print(eval("x*10"))
+exec("x=10")
+print(eval("x*10"))
+print('bye'*6)

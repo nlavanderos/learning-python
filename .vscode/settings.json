@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "C:\\Users\\Setxh\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.linting.enabled": true,
+    "python.testing.pytestArgs": [
+        "orellyPython"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
