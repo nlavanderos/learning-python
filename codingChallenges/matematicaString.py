@@ -13,4 +13,4 @@ def MathChallenge(strParam):
   
 
 # keep this function call here 
-print(MathChallenge('1 + 1111 = x112'))
+print(MathChallenge('1 + 1111 = 112x'))

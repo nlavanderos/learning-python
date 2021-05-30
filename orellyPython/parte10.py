@@ -1,4 +1,4 @@
-from decimal import Decimal,getcontext
+from decimal import Decimal
 from fractions import Fraction
 
 X = set('lyami')
