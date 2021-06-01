@@ -64,7 +64,7 @@ print(findall('yolo',frase1),frase1.find('M'))
 #Caracteres especiales siempre con backSlash \
 #Mientras que r antes de los apostrofes indica un rawString donde es el texto original con backSlash
 #\t tabulacion, \n salto de linea, \x00 espacio
-print(r"\t \n \" \x00 \-")
+print(r"\t \n \" \x20 \-")
 
 #Nos permite limpiar espacios strip(' ') o caracteres strip('d') al principio y alfinal de un string
 #rstrip() por default nos limpia de espacios vacios al principio o final del string
