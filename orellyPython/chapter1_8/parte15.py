@@ -51,7 +51,7 @@ print('La posicion del valor 1 es: ',lista1.index(1))
 lista1.insert(2,11)
 print('Valor 11 agregado a la posicion 2:',lista1)
 
-lista2=['m  anuel','manuel','manuel','david','david','martin','martin','martin','martin',123]
+lista2=['manuel','manuel','manuel','david','david','martin','martin','martin','martin',123]
 #Esta linea convierte todo a string para asegurarnos antes un posible error
 tem=map(str,set(lista2))
 #max recibe el iterable y una key que recoge el valor primer valor de tem y lo compara con la lista3
