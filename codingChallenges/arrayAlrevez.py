@@ -9,7 +9,9 @@
     
 # print(f1(size=int(input()),arr=np.array(input().split(), dtype='int')))
 
-
+#F1
+#INGRESAR SIZE >>> 3
+#INGRESAR LISTA >>> 1 2 3
 def f1(size,lista):
     
     lista.reverse()

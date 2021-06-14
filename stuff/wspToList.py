@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
 options=ChromeOptions()
+#CREAR carpeta data para guarda la sesion
 options.add_argument(r"user-data-dir=C:\Users\Setxh\Desktop\learning-python-v1\drivers\data")
 driver=Chrome(executable_path=r'C:\Users\Setxh\Desktop\learning-python-v1\drivers\chromedriver.exe',options=options)
 

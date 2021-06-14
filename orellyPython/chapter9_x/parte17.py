@@ -65,7 +65,7 @@ print(tupla2.index(2,6))
 try :
 
     #Se especifica la ruta en el open funciona con relative path,para path se debe usar raw string r'
-    lectura = open('orellyPython/chapter9_x/p17_1.txt', 'r')
+    lectura = open('orellyPython\chapter9_x\p17_1.txt', 'r')
 
     print(lectura.read())
     #read() -> lee toda la informacion del archivo
@@ -77,7 +77,7 @@ try :
 
 except FileNotFoundError:
 
-    escritura=open('orellyPython/chapter9_x/p17_1.txt',mode='w')
+    escritura=open('orellyPython\chapter9_x\p17_1.txt',mode='w')
     #al escribir informacion con print(),alfinal del contenido siempre habra salto de lineas
     #con write(),nosotros debemos especificar si queremos un salto de linea por ejemplo.
     #escritura.write('holaMundo\n')
@@ -87,10 +87,10 @@ finally:
     
     #Siempre se debe cerrar un archivo,en el unico caso que no se realiza es cuando
     #se usa la sentencia with -> with open(....) as f: sentencias....
-    lectura.close()
+ 
     #Sin cerrar el archivo se puede hacer un flush al buffer.
     #lectura.flush()
-
+    lectura.close()
     #lectura.seek(N)
     #Permite cambiar la posicion del archivo a algo(en este caso N) para la siguiente operacion
 

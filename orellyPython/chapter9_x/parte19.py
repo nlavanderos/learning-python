@@ -91,7 +91,7 @@ stdout.write('Book X'+'\n')
 
 #para pasar codigo de python2.x a python3.x
 #existe el script 2to3  generalmente viene instalada con python en Tools/scripts
-#uso >> python path2to3 -w nombrearchivo.py
+#uso >> python 2to3.py -w nombrearchivo.py
 #se genera un archivo de backup de la ver 2 y el archivo convertido mantiene su nombre en version3
 
 #Declaracion de print en 2.x se necesita ese modulo
