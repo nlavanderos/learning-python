@@ -10,7 +10,7 @@ httpd.serve_forever()
 # Crear los metodos http para montar el server
 #Crear carpeta del cgi-bin y script
 #crear carpeta de archivos html
-#finalmente en localhost:8000/c.html
+#finalmente en http://localhosKSt:8000/stuff/webCgi/pruebaCgi.html
 
 
 #XAMPP
