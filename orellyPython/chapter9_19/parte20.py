@@ -17,9 +17,13 @@ def menu():
     print('{:^30}'.format('2.Cancelar: '))
     print('{:^30}'.format('3.Salir: '))
     print('{:*^33}'.format(''))
+    valoresValidos={'1', '2', '3', '1.0'}
     opcion = str(input('Selecciona una opcion: '))
-    if opcion not in {'1', '2', '3', '1.0'}:
+    if opcion not in valoresValidos :
         valid = False
+        #El primer argumento es una expresion/valor perteneciente a choices,si lo encuentra retorna lo que contiene el 2do argumento.
+        # Handling switch defaults 373
+        print(choices.get(False, f'{opcion}  Es una opcion erronea\n'))
     else:
         valid = True
 
@@ -28,6 +32,7 @@ def opciones():
     
     #De igual forma while valid is not True:
     while valid != True:
+        
         menu()
 
     if float(opcion) in valores[0]:
@@ -40,9 +45,6 @@ def opciones():
 
 menu()
 opciones()
-
-# Handling switch defaults 373
-print(choices.get('cancelar', 'Bad Choice'))
 
 # pylint + normas pep8 aseguran un desarollo con buenas practicas
 # pylint nombreArchivo.py

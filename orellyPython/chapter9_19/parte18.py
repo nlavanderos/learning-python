@@ -116,7 +116,6 @@ print(type(MySequence.__add__)==FunctionType)
 def pruebaYield():
     step=1
     print('PASO 1')
-    print('PASO 1')
     yield step
 
     step+=1
