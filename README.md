@@ -23,7 +23,7 @@ _Encontraras diversas carpetas con codigo documentado en su mayoria_
 
 ## Estilo de codificacion📌
 
-[Pep-8](https://www.python.org/dev/peps/pep-0008/)
+[camelCase Pep-8](https://www.python.org/dev/peps/pep-0008/)
 
 ## Autores ✒️
 
