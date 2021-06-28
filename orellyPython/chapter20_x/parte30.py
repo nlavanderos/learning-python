@@ -24,6 +24,7 @@
 #Valores de variables con modulos 
 # print(sys.modules['parte30'].name) # Index loaded-modules table manually
 # print(getattr(parte30, 'name')) # Call built-in fetch function
+#getattr es lo mismo que parte30.name
 
 
 #De otra forma podemos establecer variables con nombres de modulos e usar el metodo __import__(nombreModulo)
