@@ -1,9 +1,7 @@
-#CHAPTER 29 : Class Coding Details, 859
-
 #Siempre se prioriza las llamadas de un clase base v/s la clase super/heredada
 
 #Abstract superclasses in Python 3.X and 2.6+: Preview
-# from abc import ABCMeta, abstractmethod
+# from abc Meta, abstractmethod
 # class Super(metaclass=ABCMeta):
 #     @abstractmethod
 #     def method(self):
